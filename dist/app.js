@@ -9,4 +9,4 @@ require('dotenv').config();
 const app = (0, express_1.default)();
 (0, dbConnection_1.default)();
 const PORT = process.env.PORT;
-app.listen(PORT, () => console.log(`Server is up and running on ${PORT}`));
+app.listen(PORT, () => console.log(`Server is running on ${PORT}`));
