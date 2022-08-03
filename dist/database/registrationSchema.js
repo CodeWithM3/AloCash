@@ -11,7 +11,7 @@ const registration = new Schema({
         required: true,
         lowercase: true
     },
-    Phone: {
+    Telphone: {
         type: Number,
         required: true,
         unique: true
